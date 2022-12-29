@@ -1,0 +1,293 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10946,        283]
+NotebookOptionsPosition[      7913,        214]
+NotebookOutlinePosition[     10009,        269]
+CellTagsIndexPosition[      9925,        264]
+WindowTitle->NextLeapYearDay
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ DATE TIME SYMBOL", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "2b7a43d5-cde8-498d-a110-67cf38c3dc27"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "7cb87060-1119-43d6-98c6-4ba235ee3218"],
+        Background->RGBColor[0.490196, 0.576471, 0.690196],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[Cell[BoxData[
+     TagBox[
+      ActionMenuBox[
+       FrameBox[Cell[TextData[{
+         "URL",
+         " ",
+         Cell[BoxData[
+          GraphicsBox[
+           {GrayLevel[0.66667], Thickness[0.13], 
+            LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+           AspectRatio->1,
+           ImageSize->20,
+           PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+          "73b46ffb-1038-4a70-bbdf-146a9b919852"]
+        }],ExpressionUUID->"791bf955-5e14-4ee3-bec0-fb79cb0e9607"],
+        StripOnInput->
+         False], {"\<\"PeterBurbery/DateTime/ref/NextLeapYearDay\"\>":>
+       None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell["PeterBurbery/DateTime/ref/NextLeapYearDay"]}, Visible -> 
+            False]]; SelectionMove[
+         DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+       Delimiter, "\<\"Copy web URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell[
+              BoxData[
+               MakeBoxes[
+                Hyperlink[
+                "http://reference.wolfram.com/language/PeterBurbery/DateTime/\
+ref/NextLeapYearDay.html"], StandardForm]], "Input", TextClipboardType -> 
+              "PlainText"]}, Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; 
+        Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+         NotebookLocate[{
+           URL[If[
+              TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$183322], 
+              "http://reference.wolfram.com/system-modeler/", 
+              "http://reference.wolfram.com/language/"] <> 
+            "PeterBurbery/DateTime/ref/NextLeapYearDay" <> ".html"], None}]}]},
+       Appearance->None,
+       MenuAppearance->Automatic,
+       MenuStyle->"URLMenu"],
+      MouseAppearanceTag["LinkHand"]]],
+     LineSpacing->{1.4, 0},ExpressionUUID->
+     "6c47ad83-52ce-4b52-a5bd-eed2c9ff5bcf"]], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "f785058c-bbd9-4770-81d6-dbc7f78bd1dd"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"e76be90a-bb02-420f-8b05-094b388fdf3a"],
+
+Cell["PeterBurbery`DateTime`", "ContextNameCell",ExpressionUUID->"7e733f98-c2dd-4df1-af79-81d730006255"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[GridBox[{
+   {Cell[TextData[{
+     Cell[
+     "NextLeapYearDay", "ObjectName",ExpressionUUID->
+      "e1b83313-c44c-4828-9d19-549370fdd23e"],
+     Cell[BoxData[
+      TemplateBox[{8},
+       "Spacer1"]],ExpressionUUID->"2fbb9288-638c-4a94-bcc4-1be1e7a7c08f"],
+     Cell[BoxData[
+     ""], "ObjectNameTranslation",ExpressionUUID->
+      "78b9d708-3fb4-4c33-94cb-c695e29a9de2"]
+    }],ExpressionUUID->"38689862-f8fc-4370-bde4-6921973535f8"], 
+    "\[SpanFromLeft]"}
+  }]], "ObjectNameGrid",ExpressionUUID->"92650a22-b79d-4303-a9e3-\
+bf48befe6aea"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     "Next",
+     Cell[BoxData[
+      RowBox[{
+       TemplateBox[{
+         Cell[
+          TextData["LeapYearDay"]], 
+         "paclet:PeterBurbery/DateTime/ref/LeapYearDay", 
+         "PeterBurbery Package Symbol"},
+        "PackageLink",
+        BaseStyle->"InlineFormula"], "[", "]"}]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "7bc55a62-59d7-4117-a4dd-16d57b2997be"],
+     "\[LineSeparator]XXXX"
+    }],ExpressionUUID->"a985869e-6af2-4857-bc41-03701d3dbcd4"]}
+  }]], "Usage",
+ CellID->87689845,ExpressionUUID->"7f3686fc-d6fb-4a46-8283-75d9e1b17c08"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {
+       TaggingRules, "Openers", "PrimaryExamplesSection"}, Open], 
+      Alternatives[True, Open]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"23f625cd-881f-4f0f-a6fe-88bc64d549de"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"a416eab5-131c-4eb4-ac8e-c12045f499da"],
+ "Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(0)", "ExampleCount",ExpressionUUID->
+  "6a9d72b9-fac8-4456-abb2-e5a6fb53a2c0"]
+}], "PrimaryExamplesSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellTags->"PrimaryExamplesSection",
+ CellID->970059220,ExpressionUUID->"ff190ca1-b8af-40eb-a446-8a701d594b94"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PeterBurbery`DateTime`\>\"", "]"}]], "Input", \
+"ExampleInitialization",
+ CellLabel->"In[1]:=",
+ CellID->170116201,ExpressionUUID->"6b9c8140-0c7c-47a8-aac2-dd98d17c874c"]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
+  Closed]]]],
+
+Cell[BoxData[GridBox[{
+   {
+    DynamicBox[FEPrivate`ImportImage[
+      FrontEnd`FileName[{"Documentation", "FooterIcons"}, 
+       "RelatedFunction.png"]],
+     ImageSizeCache->{50., {27., 33.}}], GridBox[{
+      {
+       StyleBox[
+        RowBox[{"See", " ", "Also"}], "SeeAlsoSection"]},
+      {Cell[TextData[Cell[BoxData[
+        TagBox[
+         FrameBox["\"\<XXXX\>\""],
+         "FunctionPlaceholder"]], "InlineFormula",
+        FontFamily->"Source Sans Pro",ExpressionUUID->
+        "818ea388-09a4-4f74-b9b7-654490c2e911"]], "SeeAlso",ExpressionUUID->
+        "e1660485-cc6c-40cd-b657-5633d41e94e9"]}
+     }]}
+  }]], "SeeAlsoSection",ExpressionUUID->"4c88dbf5-2004-456e-b353-\
+0ca7b42857b0"],
+
+Cell[" ", "FooterCell",ExpressionUUID->"6eed6a8d-6af5-484a-b0c8-a9c29aab3615"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900., 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"NextLeapYearDay",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "HasOptions" -> True, "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> $Failed, "ShowCitation" -> 
+  False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2022, 12, 28, 21, 57, 0.3751352}", 
+    "history" -> {"XX", "", "", ""}, "context" -> "PeterBurbery`DateTime`", 
+    "keywords" -> {}, "specialkeywords" -> {}, 
+    "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> 
+    "Peter Burbery/ Date Time Symbol", "language" -> "en", "paclet" -> 
+    "PeterBurbery/DateTime", "status" -> "None", "summary" -> 
+    "NextLeapYearDay[] XXXX", "synonyms" -> {}, "tabletags" -> {}, "title" -> 
+    "NextLeapYearDay", "titlemodifier" -> "", "windowtitle" -> 
+    "NextLeapYearDay", "type" -> "Symbol", "uri" -> 
+    "PeterBurbery/DateTime/ref/NextLeapYearDay"}},
+CellContext->"Global`",
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> FrontEnd`FileName[{"Wolfram"}, "Reference.nb"]]], 
+   Cell[
+    StyleData["Input"], CellContext -> "Global`"], 
+   Cell[
+    StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
+  FrontEndVersion -> 
+  "13.2 for Microsoft Windows (64-bit) (November 18, 2022)", StyleDefinitions -> 
+  "Default.nb"],
+ExpressionUUID->"6c6b75b2-7efb-4ec0-8185-47445aa13ce1"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "PrimaryExamplesSection"->{
+  Cell[5376, 144, 1420, 37, 70, "PrimaryExamplesSection",ExpressionUUID->"ff190ca1-b8af-40eb-a446-8a701d594b94",
+   CellTags->"PrimaryExamplesSection",
+   CellID->970059220]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"PrimaryExamplesSection", 9726, 257}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[587, 21, 3422, 79, 70, "AnchorBarGrid",ExpressionUUID->"e76be90a-bb02-420f-8b05-094b388fdf3a",
+ CellID->1],
+Cell[4012, 102, 104, 0, 70, "ContextNameCell",ExpressionUUID->"7e733f98-c2dd-4df1-af79-81d730006255"],
+Cell[CellGroupData[{
+Cell[4141, 106, 558, 14, 70, "ObjectNameGrid",ExpressionUUID->"92650a22-b79d-4303-a9e3-bf48befe6aea"],
+Cell[4702, 122, 637, 17, 70, "Usage",ExpressionUUID->"7f3686fc-d6fb-4a46-8283-75d9e1b17c08",
+ CellID->87689845]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5376, 144, 1420, 37, 70, "PrimaryExamplesSection",ExpressionUUID->"ff190ca1-b8af-40eb-a446-8a701d594b94",
+ CellTags->"PrimaryExamplesSection",
+ CellID->970059220],
+Cell[6799, 183, 212, 4, 70, "Input",ExpressionUUID->"6b9c8140-0c7c-47a8-aac2-dd98d17c874c",
+ CellID->170116201]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
+Cell[7129, 192, 699, 18, 70, "SeeAlsoSection",ExpressionUUID->"4c88dbf5-2004-456e-b353-0ca7b42857b0"],
+Cell[7831, 212, 78, 0, 70, "FooterCell",ExpressionUUID->"6eed6a8d-6af5-484a-b0c8-a9c29aab3615"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

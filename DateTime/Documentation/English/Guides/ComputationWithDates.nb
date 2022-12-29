@@ -1,0 +1,459 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     18537,        451]
+NotebookOptionsPosition[     13490,        347]
+NotebookOutlinePosition[     14061,        366]
+CellTagsIndexPosition[     14018,        363]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Computation with Dates", "GuideTitle",
+ CellID->381277588,ExpressionUUID->"6de64008-3c10-4ba7-98d0-98338b9099ca"],
+
+Cell["The paclet helps with computation with dates.", "GuideAbstract",
+ CellChangeTimes->{{3.881310246386015*^9, 3.88131025531116*^9}},
+ CellID->19644998,ExpressionUUID->"8250374a-7f21-4f0a-bf79-b3c0bafb63c0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "GuideFunctionsSection",
+ CellID->163246935,ExpressionUUID->"22c12b8e-ea37-4046-8f6f-f3ff5532368a"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["NextLeapYear",
+   BaseStyle->"Link",
+   ButtonData->"paclet:PeterBurbery/DateTime/ref/NextLeapYear"]], 
+  "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
+  "eff5b7d5-326d-4526-a654-24a62dd14e07"],
+ " \[LongDash] Do the computation for the next leap year"
+}], "GuideText",
+ CellChangeTimes->{{3.8813102581727304`*^9, 3.8813102688629165`*^9}, 
+   3.8813117593612356`*^9, {3.8813120781151924`*^9, 3.8813120781151924`*^9}},
+ CellID->223521048,ExpressionUUID->"39957bb0-82c2-4c7d-bb14-7f1f85664872"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["PreviousLeapYear",
+   BaseStyle->"Link",
+   ButtonData->"paclet:PeterBurbery/DateTime/ref/PreviousLeapYear"]], 
+  "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"c5c6736a-1ff4-4e4e-8fcf-2d9846cbae62",ExpressionUUID->
+  "aee38ecc-a57d-4e50-ae27-08698958dbcb"],
+ " \[LongDash] Do the computation for the previous leap year:"
+}], "GuideText",
+ CellChangeTimes->{{3.881310271532487*^9, 3.88131028345675*^9}, {
+  3.881311768391286*^9, 3.881311771828323*^9}, {3.881312218309919*^9, 
+  3.881312218309919*^9}},
+ CellID->172573548,ExpressionUUID->"d757737e-b3b6-4181-94d7-ca9511dffdc0"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["DatePlusLeapYear",
+   BaseStyle->"Link",
+   ButtonData->"paclet:PeterBurbery/DateTime/ref/DatePlusLeapYear"]], 
+  "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"7ceba73a-ef5c-4890-87c2-d5e13eeed733",ExpressionUUID->
+  "ab9e04b8-a86d-4291-a3c2-4b2b27283a19"],
+ " \[LongDash] Do the computation to add or subtract a specific multiple of \
+leap years to a date"
+}], "GuideText",
+ CellChangeTimes->{{3.881310294355937*^9, 3.881310299518013*^9}, {
+  3.8813117783083715`*^9, 3.881311799423555*^9}, {3.881312536982664*^9, 
+  3.881312536982664*^9}},
+ CellID->35241446,ExpressionUUID->"528a059c-53ef-49a5-8051-ba9e93796d1d"],
+
+Cell[TextData[{
+ Cell[BoxData["LeapYearRange"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"7ceba73a-ef5c-4890-87c2-d5e13eeed733",ExpressionUUID->
+  "809dddb8-5f23-4622-b9b9-b728a2e43702"],
+ " \[LongDash] Do a computation to make a range of leap years."
+}], "GuideText",
+ CellChangeTimes->{{3.8813118059646034`*^9, 3.8813118211197443`*^9}},
+ CellID->69349849,ExpressionUUID->"68630a2a-f08b-4f37-b2c1-294ccf35368c"],
+
+Cell[TextData[{
+ Cell[BoxData["LeapYearDay"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"7ceba73a-ef5c-4890-87c2-d5e13eeed733",ExpressionUUID->
+  "6a0ef55a-2e8b-4653-bfa7-4f120a1bfe43"],
+ " \[LongDash] Do the computation to find the leap day in a leap year"
+}], "GuideText",
+ CellChangeTimes->{{3.8813118733604317`*^9, 3.881311887628559*^9}},
+ CellID->162378503,ExpressionUUID->"db7a5dce-3cde-4897-8b31-587e12c86c55"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["NextLeapYearDay",
+   BaseStyle->"Link",
+   ButtonData->"paclet:PeterBurbery/DateTime/ref/NextLeapYearDay"]], 
+  "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"7ceba73a-ef5c-4890-87c2-d5e13eeed733",ExpressionUUID->
+  "db8b7047-a7af-4e0e-b5db-034f36f0b34d"],
+ " \[LongDash] Do the computation to find the next leap day"
+}], "GuideText",
+ CellChangeTimes->{{3.881311894771615*^9, 3.8813119181778183`*^9}, {
+  3.8813123370599403`*^9, 3.8813123579221277`*^9}},
+ CellID->284010633,ExpressionUUID->"903146c7-83e1-4c92-8e6f-f941f4fd0402"],
+
+Cell[TextData[{
+ Cell[BoxData["NextLeapYearDay"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"7ceba73a-ef5c-4890-87c2-d5e13eeed733",ExpressionUUID->
+  "3e5919f9-f192-48a7-8173-93e69d38fffb"],
+ " \[LongDash] Do the computation to find the next leap day"
+}], "GuideText",
+ CellChangeTimes->{{3.881312448451898*^9, 3.881312453046939*^9}},
+ CellID->760428959,ExpressionUUID->"621e7c7c-3866-4924-8e10-383ea8a7e24a"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["PreviousLeapYearDay",
+   BaseStyle->"Link",
+   ButtonData->"paclet:PeterBurbery/DateTime/ref/PreviousLeapYearDay"]], 
+  "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"7ceba73a-ef5c-4890-87c2-d5e13eeed733",ExpressionUUID->
+  "13188a1c-ac60-4ee9-9375-855e5bad0c88"],
+ " \[LongDash] Do the computation to find the previous leap day"
+}], "GuideText",
+ CellChangeTimes->{{3.881311894771615*^9, 3.8813119084347343`*^9}, {
+  3.881312354640095*^9, 3.8813123605441427`*^9}},
+ CellID->360216448,ExpressionUUID->"ed969b3c-34a0-47b9-b8cd-9df97c4b4587"],
+
+Cell[TextData[{
+ Cell[BoxData["DatePlusLeapYearDay"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"7ceba73a-ef5c-4890-87c2-d5e13eeed733",ExpressionUUID->
+  "cfd566aa-784f-4d46-9c10-ccd0093801b9"],
+ " \[LongDash] Do the computation to add or subtract a specific multiple of \
+leap days to a date"
+}], "GuideText",
+ CellChangeTimes->{{3.881310294355937*^9, 3.881310299518013*^9}, {
+  3.8813117783083715`*^9, 3.881311799423555*^9}, {3.8813119265168877`*^9, 
+  3.8813119449660473`*^9}},
+ CellID->265691902,ExpressionUUID->"635b08f3-a65b-4815-9c95-ad463fce063e"],
+
+Cell[TextData[{
+ Cell[BoxData["LeapYearDayRange"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"7ceba73a-ef5c-4890-87c2-d5e13eeed733",ExpressionUUID->
+  "127b5aef-b550-4d7e-b6bf-4842d77ff34b"],
+ " \[LongDash] Do a computation to make a range of leap days."
+}], "GuideText",
+ CellChangeTimes->{{3.8813118059646034`*^9, 3.8813118211197443`*^9}, {
+  3.88131193787799*^9, 3.8813119479410725`*^9}},
+ CellID->566358793,ExpressionUUID->"c61e66e0-c72a-4574-b2e0-9264e8f16a46"],
+
+Cell[TextData[{
+ Cell[BoxData["ISOWeekDate"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"7ceba73a-ef5c-4890-87c2-d5e13eeed733",ExpressionUUID->
+  "56c84351-cc90-4c22-b8a0-7d5d2479bbd2"],
+ " \[LongDash] Do a computation to obtain the ISO week day string for a date"
+}], "GuideText",
+ CellChangeTimes->{{3.8813119558011403`*^9, 3.8813119714952908`*^9}},
+ CellID->716819530,ExpressionUUID->"5db8f806-1f74-4fb5-8ccd-9fa8337d828b"],
+
+Cell[TextData[{
+ Cell[BoxData["FromISOWeekDate"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"7ceba73a-ef5c-4890-87c2-d5e13eeed733",ExpressionUUID->
+  "a83aa9f8-6d9e-4a19-893a-eb735ce5c29e"],
+ " \[LongDash] Obtain a date from a list of the ISO year, week, and week day"
+}], "GuideText",
+ CellChangeTimes->{{3.8813119773353343`*^9, 3.881311994867488*^9}},
+ CellID->801413549,ExpressionUUID->"306f5aa3-4981-4abd-bbee-113d9cf9e249"],
+
+Cell[TextData[{
+ Cell[BoxData["FromISOTimestamp"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"7ceba73a-ef5c-4890-87c2-d5e13eeed733",ExpressionUUID->
+  "b905dd7d-d7a4-48e1-95f3-018110e01b7c"],
+ " \[LongDash] Obtain a date object from an ISO timestamp"
+}], "GuideText",
+ CellChangeTimes->{{3.881311999627522*^9, 3.881312012215632*^9}},
+ CellID->590896040,ExpressionUUID->"013eac29-76bc-4bd9-a702-28440f100a8e"],
+
+Cell[TextData[{
+ Cell[BoxData["EasterSunday"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"7ceba73a-ef5c-4890-87c2-d5e13eeed733",ExpressionUUID->
+  "f03f21e9-3969-425f-b572-5099139f7f0b"],
+ " \[LongDash] do the computation for the date of Easter Sunday for a year"
+}], "GuideText",
+ CellChangeTimes->{{3.8813120208497076`*^9, 3.881312033799814*^9}},
+ CellID->167897198,ExpressionUUID->"387d6f70-b4e7-4738-b64f-5a80e8fa145a"],
+
+Cell[TextData[{
+ Cell[BoxData["EasterSundayGreekOrthodx"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"7ceba73a-ef5c-4890-87c2-d5e13eeed733",ExpressionUUID->
+  "421fd508-83b7-4cb9-b805-7f96502fec7b"],
+ " \[LongDash] do the computation for the date of Easter Sunday celebrated by \
+the Greek Orthodox Church for a year"
+}], "GuideText",
+ CellChangeTimes->{{3.8813120208497076`*^9, 3.8813120587740393`*^9}},
+ CellID->837385849,ExpressionUUID->"a14d4a74-d4a4-42f8-9eff-70142f7d7d9c"],
+
+Cell[CellGroupData[{
+
+Cell["\t", "GuideDelimiter",
+ CellID->339981947,ExpressionUUID->"197cd0ad-e80a-43c3-8d6e-df69237cd878"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TagBox[
+   FrameBox["\<\"XXXX\"\>"],
+   "FunctionPlaceholder"]], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},ExpressionUUID->
+  "305bf1dd-f9cc-4deb-8d55-16dad44ee0a9"],
+ Cell[BoxData[
+  RowBox[{
+  Cell[TextData[StyleBox[
+   " \[FilledVerySmallSquare] ", "InlineSeparator"]],ExpressionUUID->
+    "e15df63e-4b82-499a-ac86-2846c0de5f85"], 
+   DynamicModuleBox[{$CellContext`nbobj$$ = NotebookObject[
+    "82b29c43-df62-4d3e-a9c0-90331cb4e975", 
+     "ca4636e7-2230-4119-8830-e07ae8a12eba"], $CellContext`cellobj$$ = 
+    CellObject[
+    "d9a922d5-0e99-496b-bede-3a498286f274", 
+     "cc693556-5245-4cee-8fc8-33ed308875a1"]}, 
+    TemplateBox[{
+      GraphicsBox[{{
+         Thickness[0.06], 
+         StrokeForm[
+          Hue[0.4167, 0.406, 0.502]], 
+         CircleBox[{0, 0}]}, {
+         Thickness[0.06], 
+         StrokeForm[
+          Hue[0.4167, 0.406, 0.502]], 
+         LineBox[{{0, 0.62}, {0, -0.62}}]}, {
+         Thickness[0.06], 
+         StrokeForm[
+          Hue[0.4167, 0.406, 0.502]], 
+         LineBox[{{-0.62, 0}, {0.62, 0}}]}}, 
+       ImagePadding -> {{1., 1.}, {2.4, 1.}}, ImageSize -> 16, 
+       PlotRange -> {{-1.06, 1.06}, {-1.06, 1.06}}, 
+       BaselinePosition -> (Center -> 
+        Center)], $CellContext`nbobj$$, $CellContext`cellobj$$},
+     "InlineListingAddButton"],
+    Initialization:>($CellContext`nbobj$$ = 
+      EvaluationNotebook[]; $CellContext`cellobj$$ = EvaluationCell[])]}]], 
+  "InlineListingAddButton",ExpressionUUID->
+  "d9a922d5-0e99-496b-bede-3a498286f274"]
+}], "InlineGuideFunctionListing",
+ CellID->4133582,ExpressionUUID->"e7e7da3a-0bbd-4ffe-87d4-dfe118251f49"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Tech Notes", "GuideTutorialsSection",
+ CellID->384533260,ExpressionUUID->"be202c61-c817-477f-baa5-c648200999da"],
+
+Cell["XXXX", "GuideTutorial",
+ CellID->764699856,ExpressionUUID->"a30b0203-fe58-41ac-b203-75b049197424"],
+
+Cell["XXXX", "GuideTutorial",
+ CellID->14292185,ExpressionUUID->"e2b569b6-4855-43be-a92b-bd4618c9b2c8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Guides", "GuideMoreAboutSection",
+ CellChangeTimes->{{3.8430423939366693`*^9, 3.843042395176153*^9}},
+ CellID->406814308,ExpressionUUID->"760f6251-d9f6-4f2c-a5f9-f5f534e69547"],
+
+Cell["XXXX", "GuideMoreAbout",
+ CellID->691278584,ExpressionUUID->"66384428-c482-4500-8deb-56e0825a5dd9"],
+
+Cell["XXXX", "GuideMoreAbout",
+ CellID->570415953,ExpressionUUID->"338685e3-0d01-42b5-82f9-d6b074479fe1"]
+}, Open  ]],
+
+Cell["Related Links", "GuideRelatedLinksSection",
+ CellID->230262042,ExpressionUUID->"d64bd459-568e-4b99-a58d-1986be51fe36"],
+
+Cell[CellGroupData[{
+
+Cell["Metadata", "MetadataSection",
+ CellID->18339407,ExpressionUUID->"23bf603e-f8ee-4cee-a863-48c1748a81bf"],
+
+Cell[TextData[{
+ "New in: ",
+ Cell["XX", "HistoryData",
+  CellTags->"New",ExpressionUUID->"e1e6768e-7f8e-42c6-a72f-d2d4f5576395"],
+ " | Modified in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Modified",ExpressionUUID->"7b3e0bf4-75ae-4a05-bcb1-898533d62d40"],
+ " | Obsolete in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Obsolete",ExpressionUUID->"8c79bfae-de99-479d-b809-ffccae01e729"]
+}], "History",
+ CellID->300434912,ExpressionUUID->"b53699a1-27cd-4678-8410-db58654598d0"],
+
+Cell[CellGroupData[{
+
+Cell["Categorization", "CategorizationSection",
+ CellID->14789264,ExpressionUUID->"b60bf66c-ae20-426b-97fd-4257dad87d00"],
+
+Cell["Guide", "Categorization",
+ CellLabel->"Entity Type",
+ CellID->80965878,ExpressionUUID->"e1dbf7ce-3b45-4a1d-8fec-c38558e4f098"],
+
+Cell["PeterBurbery/DateTime", "Categorization",
+ CellLabel->"Paclet Name",
+ CellID->387284441,ExpressionUUID->"592486cd-0131-4f0b-b228-af93773e6711"],
+
+Cell["PeterBurbery`DateTime`", "Categorization",
+ CellLabel->"Context",
+ CellID->142360538,ExpressionUUID->"dbb21a5e-7234-4be8-a881-6f79b3f1ac6e"],
+
+Cell["PeterBurbery/DateTime/guide/ComputationWithDates", "Categorization",
+ CellLabel->"URI",
+ CellID->891231091,ExpressionUUID->"d4533d09-3e66-400f-ad1a-17db7d5c6974"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Keywords", "KeywordsSection",
+ CellID->236001107,ExpressionUUID->"b293c66c-4c4d-45e5-895e-4be2943cf573"],
+
+Cell["XXXX", "Keywords",
+ CellID->273173218,ExpressionUUID->"56d7a4e0-addc-4a9a-b60e-5ddbad482008"]
+}, Closed]]
+}, Open  ]]
+},
+WindowSize->{576., 615.6},
+WindowMargins->{{
+  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+TaggingRules-><|"Paclet" -> "PeterBurbery/DateTime"|>,
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "GuidePageStylesExt.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"82b29c43-df62-4d3e-a9c0-90331cb4e975"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 119, 1, 88, "GuideTitle",ExpressionUUID->"6de64008-3c10-4ba7-98d0-98338b9099ca",
+ CellID->381277588],
+Cell[702, 25, 209, 2, 29, "GuideAbstract",ExpressionUUID->"8250374a-7f21-4f0a-bf79-b3c0bafb63c0",
+ CellID->19644998]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[948, 32, 108, 1, 72, "GuideFunctionsSection",ExpressionUUID->"22c12b8e-ea37-4046-8f6f-f3ff5532368a",
+ CellID->163246935],
+Cell[1059, 35, 625, 13, 26, "GuideText",ExpressionUUID->"39957bb0-82c2-4c7d-bb14-7f1f85664872",
+ CellID->223521048],
+Cell[1687, 50, 653, 14, 26, "GuideText",ExpressionUUID->"d757737e-b3b6-4181-94d7-ca9511dffdc0",
+ CellID->172573548],
+Cell[2343, 66, 692, 15, 43, "GuideText",ExpressionUUID->"528a059c-53ef-49a5-8051-ba9e93796d1d",
+ CellID->35241446],
+Cell[3038, 83, 450, 8, 23, "GuideText",ExpressionUUID->"68630a2a-f08b-4f37-b2c1-294ccf35368c",
+ CellID->69349849],
+Cell[3491, 93, 454, 8, 23, "GuideText",ExpressionUUID->"db7a5dce-3cde-4897-8b31-587e12c86c55",
+ CellID->162378503],
+Cell[3948, 103, 607, 13, 26, "GuideText",ExpressionUUID->"903146c7-83e1-4c92-8e6f-f941f4fd0402",
+ CellID->284010633],
+Cell[4558, 118, 446, 8, 23, "GuideText",ExpressionUUID->"621e7c7c-3866-4924-8e10-383ea8a7e24a",
+ CellID->760428959],
+Cell[5007, 128, 617, 13, 26, "GuideText",ExpressionUUID->"ed969b3c-34a0-47b9-b8cd-9df97c4b4587",
+ CellID->360216448],
+Cell[5627, 143, 592, 11, 40, "GuideText",ExpressionUUID->"635b08f3-a65b-4815-9c95-ad463fce063e",
+ CellID->265691902],
+Cell[6222, 156, 503, 9, 23, "GuideText",ExpressionUUID->"c61e66e0-c72a-4574-b2e0-9264e8f16a46",
+ CellID->566358793],
+Cell[6728, 167, 463, 8, 23, "GuideText",ExpressionUUID->"5db8f806-1f74-4fb5-8ccd-9fa8337d828b",
+ CellID->716819530],
+Cell[7194, 177, 465, 8, 23, "GuideText",ExpressionUUID->"306f5aa3-4981-4abd-bbee-113d9cf9e249",
+ CellID->801413549],
+Cell[7662, 187, 445, 8, 23, "GuideText",ExpressionUUID->"013eac29-76bc-4bd9-a702-28440f100a8e",
+ CellID->590896040],
+Cell[8110, 197, 460, 8, 23, "GuideText",ExpressionUUID->"387d6f70-b4e7-4738-b64f-5a80e8fa145a",
+ CellID->167897198],
+Cell[8573, 207, 516, 9, 40, "GuideText",ExpressionUUID->"a14d4a74-d4a4-42f8-9eff-70142f7d7d9c",
+ CellID->837385849],
+Cell[CellGroupData[{
+Cell[9114, 220, 103, 1, 27, "GuideDelimiter",ExpressionUUID->"197cd0ad-e80a-43c3-8d6e-df69237cd878",
+ CellID->339981947],
+Cell[9220, 223, 1668, 42, 28, "InlineGuideFunctionListing",ExpressionUUID->"e7e7da3a-0bbd-4ffe-87d4-dfe118251f49",
+ CellID->4133582]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10937, 271, 118, 1, 74, "GuideTutorialsSection",ExpressionUUID->"be202c61-c817-477f-baa5-c648200999da",
+ CellID->384533260],
+Cell[11058, 274, 104, 1, 24, "GuideTutorial",ExpressionUUID->"a30b0203-fe58-41ac-b203-75b049197424",
+ CellID->764699856],
+Cell[11165, 277, 103, 1, 24, "GuideTutorial",ExpressionUUID->"e2b569b6-4855-43be-a92b-bd4618c9b2c8",
+ CellID->14292185]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11305, 283, 190, 2, 74, "GuideMoreAboutSection",ExpressionUUID->"760f6251-d9f6-4f2c-a5f9-f5f534e69547",
+ CellID->406814308],
+Cell[11498, 287, 105, 1, 24, "GuideMoreAbout",ExpressionUUID->"66384428-c482-4500-8deb-56e0825a5dd9",
+ CellID->691278584],
+Cell[11606, 290, 105, 1, 24, "GuideMoreAbout",ExpressionUUID->"338685e3-0d01-42b5-82f9-d6b074479fe1",
+ CellID->570415953]
+}, Open  ]],
+Cell[11726, 294, 124, 1, 74, "GuideRelatedLinksSection",ExpressionUUID->"d64bd459-568e-4b99-a58d-1986be51fe36",
+ CellID->230262042],
+Cell[CellGroupData[{
+Cell[11875, 299, 109, 1, 72, "MetadataSection",ExpressionUUID->"23bf603e-f8ee-4cee-a863-48c1748a81bf",
+ CellID->18339407],
+Cell[11987, 302, 473, 11, 26, "History",ExpressionUUID->"b53699a1-27cd-4678-8410-db58654598d0",
+ CellID->300434912],
+Cell[CellGroupData[{
+Cell[12485, 317, 121, 1, 21, "CategorizationSection",ExpressionUUID->"b60bf66c-ae20-426b-97fd-4257dad87d00",
+ CellID->14789264],
+Cell[12609, 320, 132, 2, 70, "Categorization",ExpressionUUID->"e1dbf7ce-3b45-4a1d-8fec-c38558e4f098",
+ CellID->80965878],
+Cell[12744, 324, 149, 2, 70, "Categorization",ExpressionUUID->"592486cd-0131-4f0b-b228-af93773e6711",
+ CellID->387284441],
+Cell[12896, 328, 146, 2, 70, "Categorization",ExpressionUUID->"dbb21a5e-7234-4be8-a881-6f79b3f1ac6e",
+ CellID->142360538],
+Cell[13045, 332, 168, 2, 70, "Categorization",ExpressionUUID->"d4533d09-3e66-400f-ad1a-17db7d5c6974",
+ CellID->891231091]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[13250, 339, 110, 1, 21, "KeywordsSection",ExpressionUUID->"b293c66c-4c4d-45e5-895e-4be2943cf573",
+ CellID->236001107],
+Cell[13363, 342, 99, 1, 70, "Keywords",ExpressionUUID->"56d7a4e0-addc-4a9a-b60e-5ddbad482008",
+ CellID->273173218]
+}, Closed]]
+}, Open  ]]
+}
+]
+*)
+
